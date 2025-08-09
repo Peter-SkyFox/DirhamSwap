@@ -11,6 +11,12 @@ export default defineConfig({
   ],
   server: {
     host: '0.0.0.0',  // Allows external traffic
-    port: 8080        // Port number should match the one in health check
+    port: 8080        
+  },
+  preview: {
+    allowedHosts: [
+      'dirhamswap.com',  // Custom domain
+      'dirhamswap-sdpax.ondigitalocean.app' //Default DigitalOcean host
+    ]
   },
 })
