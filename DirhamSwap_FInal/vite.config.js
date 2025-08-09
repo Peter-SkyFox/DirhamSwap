@@ -16,7 +16,7 @@ export default defineConfig({
   preview: {
     allowedHosts: [
       'dirhamswap.com',  // Custom domain
-      'dirhamswap-sdpax.ondigitalocean.app' //Default DigitalOcean host
+      'dirhamswap-sdpax.ondigitalocean.app', //Default DigitalOcean host
     ]
   },
 })
