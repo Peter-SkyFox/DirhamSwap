@@ -9,4 +9,8 @@ export default defineConfig({
     tailwindcss(),
   
   ],
+  server: {
+    host: '0.0.0.0',  // Allows external traffic
+    port: 8080        // Port number should match the one in health check
+  },
 })
